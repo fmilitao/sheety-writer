@@ -1,0 +1,23 @@
+{
+  "apiKey": "API_KEY",
+  "clientId": "CLIENT_ID.apps.googleusercontent.com",
+  "spreadsheetId": "SPREAD_SHEET_ID",
+  "sheetData": [
+    {
+      "title": "Tab 1",
+      "headers": [
+        { "title": "Amount" },
+        { "title": "Date" },
+        { "title": "Comment" },
+        {
+          "title": "Type",
+          "values": ["potato", "tomato"]
+        }
+      ]
+    },
+    {
+      "title": "Tab 2",
+      "headers": [{ "title": "Date" }, { "title": "Comment" }]
+    }
+  ]
+}
