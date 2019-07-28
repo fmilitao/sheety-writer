@@ -2,7 +2,7 @@
   "name": "sheety-writer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fmilitao.github.io/sheety-writer/build",
+  "homepage": "https://fmilitao.github.io/sheety-writer/",
   "dependencies": {
     "@material-ui/core": "^4.3.0",
     "@material-ui/icons": "^4.2.1",

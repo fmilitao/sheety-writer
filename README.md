@@ -4,7 +4,7 @@ Web app to append values to google sheets.<br>
 This is for my own person use. To get a useful configuration for your own uses, you need to see the configuration section below.
 
 Deployed at:
-https://fmilitao.github.io/sheety-writer/build/
+https://fmilitao.github.io/sheety-writer/
 
 ---
 
