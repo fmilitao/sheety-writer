@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sheety-writer/build/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/sheety-writer/build/static/js/main.1a820981.chunk.js",
-    "main.js.map": "/sheety-writer/build/static/js/main.1a820981.chunk.js.map",
-    "runtime~main.js": "/sheety-writer/build/static/js/runtime~main.feaf9b1a.js",
-    "runtime~main.js.map": "/sheety-writer/build/static/js/runtime~main.feaf9b1a.js.map",
-    "static/js/2.41176a83.chunk.js": "/sheety-writer/build/static/js/2.41176a83.chunk.js",
-    "static/js/2.41176a83.chunk.js.map": "/sheety-writer/build/static/js/2.41176a83.chunk.js.map",
-    "index.html": "/sheety-writer/build/index.html",
-    "precache-manifest.1082fccb68d1e3870b20219f2b20631e.js": "/sheety-writer/build/precache-manifest.1082fccb68d1e3870b20219f2b20631e.js",
-    "service-worker.js": "/sheety-writer/build/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/sheety-writer/build/static/css/main.5ecd60fb.chunk.css.map"
+    "main.css": "/sheety-writer/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/sheety-writer/static/js/main.927b4fd8.chunk.js",
+    "main.js.map": "/sheety-writer/static/js/main.927b4fd8.chunk.js.map",
+    "runtime~main.js": "/sheety-writer/static/js/runtime~main.ad8aa9d9.js",
+    "runtime~main.js.map": "/sheety-writer/static/js/runtime~main.ad8aa9d9.js.map",
+    "static/js/2.41176a83.chunk.js": "/sheety-writer/static/js/2.41176a83.chunk.js",
+    "static/js/2.41176a83.chunk.js.map": "/sheety-writer/static/js/2.41176a83.chunk.js.map",
+    "index.html": "/sheety-writer/index.html",
+    "precache-manifest.f200cc53bd17f294142e28163efa58f6.js": "/sheety-writer/precache-manifest.f200cc53bd17f294142e28163efa58f6.js",
+    "service-worker.js": "/sheety-writer/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/sheety-writer/static/css/main.5ecd60fb.chunk.css.map"
   }
 }
