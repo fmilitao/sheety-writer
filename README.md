@@ -49,7 +49,7 @@ Note that you must whitelist the GitHub Pages URL for your API Key to ensure tha
 
 The configuration JSON has the following format (note that comments are not valid JSON, so make sure to not include any):
 
-```json
+```js
 {
   // you can get the 2 from the URL above
   "apiKey": "<YOUR_API_KEY>",
