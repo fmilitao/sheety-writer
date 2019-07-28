@@ -4,13 +4,13 @@
   "private": true,
   "homepage": "https://fmilitao.github.io/sheety-writer/build",
   "dependencies": {
-    "@material-ui/core": "^4.2.0",
+    "@material-ui/core": "^4.3.0",
     "@material-ui/icons": "^4.2.1",
     "@types/crypto-js": "^3.1.43",
-    "@types/jest": "24.0.15",
-    "@types/node": "12.0.10",
-    "@types/react": "16.8.22",
-    "@types/react-dom": "16.8.4",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.5",
     "@types/react-select": "^3.0.0",
     "ajv": "^6.10.2",
     "crypto-js": "^3.1.9-1",
@@ -19,7 +19,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "react-select": "^3.0.4",
-    "typescript": "3.5.2"
+    "typescript": "3.5.3"
   },
   "prettier": {
     "singleQuote": true,
