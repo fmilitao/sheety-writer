@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4938bbf969bd8135bc75f38d6a306af6",
+    "revision": "7fe0d0c490ea9ab6947a29ac6e592a17",
     "url": "/sheety-writer/index.html"
   },
   {
-    "revision": "676bc3cce84d0af42244",
+    "revision": "4e761025b78495bebdb0",
     "url": "/sheety-writer/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sheety-writer/static/js/2.0462edaf.chunk.js"
   },
   {
-    "revision": "676bc3cce84d0af42244",
-    "url": "/sheety-writer/static/js/main.ce7ce260.chunk.js"
+    "revision": "4e761025b78495bebdb0",
+    "url": "/sheety-writer/static/js/main.ed2a2aa1.chunk.js"
   },
   {
     "revision": "f60785a2534cc3092749",
