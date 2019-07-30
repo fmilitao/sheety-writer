@@ -89,8 +89,7 @@ The configuration JSON has the following format (note that comments are not vali
 
 URL options:
 
-- `debug=<BOOLEAN>` - console log the values to be submitted, but do not send them.
-- `pwa=<BOOLEAN>` - whether to make it a PWA (caching for offline use).
+- `debug=<BOOLEAN>` - console log the values to be submitted, but do not send them, and do not load service workers.
 - `config=<ENCRYPTED_STRING|JSON>` - override the default configuration with your own, make sure to url encode the string/JSON.
 
 ## Creating an Encrypted Configuration File
