@@ -10,6 +10,7 @@ import SignInAndOut from './widgets/SignInAndOut';
 import SecretDialog from './widgets/SecretDialog';
 import { getConfig } from './sheets/config';
 import { getSpreadsheetTitle } from './sheets/spreadsheet';
+import { name, version } from '../package.json';
 
 const appTitle = 'Sheety Writer';
 
@@ -57,7 +58,11 @@ export default function App() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Typography
+            variant="h6"
+            className={classes.title}
+            onClick={() => logger.log(`${name}: ${version}`)}
+          >
             {appTitle}
           </Typography>
           {sheetTitle && (
