@@ -26,11 +26,12 @@ const useStyles = makeStyles(() => ({
 }));
 
 const hideSecretDialogOnUnlock = true;
+const storageKey = 'config-secret';
 
 export default function App() {
   const classes = useStyles();
 
-  const defaultPassword = '';
+  const defaultPassword = localStorage.getItem(storageKey) || '';
   const [config, setConfig] = React.useState(getConfig(defaultPassword));
   const [isValid, setValid] = React.useState(config.valid);
   const [isOnline, setIsOnline] = React.useState(true);
@@ -67,6 +68,9 @@ export default function App() {
                 const newConfig = getConfig(newPassword);
                 setConfig(newConfig);
                 setValid(newConfig.valid);
+                if (newConfig.valid) {
+                  localStorage.setItem(storageKey, newPassword);
+                }
               }}
               isValidPassword={newPassword => getConfig(newPassword).valid}
             />
