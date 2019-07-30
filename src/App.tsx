@@ -9,6 +9,7 @@ import Tabs from './widgets/Tabs';
 import SignInAndOut from './widgets/SignInAndOut';
 import SecretDialog from './widgets/SecretDialog';
 import { getConfig } from './sheets/config';
+import { getSpreadsheetTitle } from './sheets/spreadsheet';
 
 const appTitle = 'Sheety Writer';
 
@@ -18,6 +19,14 @@ const useStyles = makeStyles(() => ({
   },
   title: {
     flexGrow: 1,
+    whiteSpace: 'nowrap',
+    paddingRight: 10,
+  },
+  subtitle: {
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
+    fontWeight: 'bold',
   },
   failure: {
     padding: 8 * 3,
@@ -36,6 +45,7 @@ export default function App() {
   const [isValid, setValid] = React.useState(config.valid);
   const [isOnline, setIsOnline] = React.useState(true);
   const [isSignedIn, setIsSignedIn] = React.useState(false);
+  const [sheetTitle, setSheetTitle] = React.useState('');
 
   window.addEventListener('online', () => setIsOnline(true));
   window.addEventListener('offline', () => setIsOnline(false));
@@ -50,12 +60,18 @@ export default function App() {
           <Typography variant="h6" className={classes.title}>
             {appTitle}
           </Typography>
+          {sheetTitle && (
+            <Typography className={classes.subtitle}>{sheetTitle}</Typography>
+          )}
           {!isOnline && <OfflineIcon />}
           {config.valid && (
             <SignInAndOut
               isSignedIn={isSignedIn}
               onSignIn={signedIn => {
                 setIsSignedIn(signedIn);
+                getSpreadsheetTitle(config.value.spreadsheetId).then(title =>
+                  setSheetTitle(title),
+                );
               }}
               apiKey={config.value.apiKey}
               clientId={config.value.clientId}

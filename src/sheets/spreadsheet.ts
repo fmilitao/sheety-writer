@@ -74,6 +74,13 @@ export async function appendRow(
   };
 }
 
+export async function getSpreadsheetTitle(spreadsheetId: string) {
+  const response = await gapi.client.sheets.spreadsheets.get({
+    spreadsheetId,
+  });
+  return String(response.result.properties.title);
+}
+
 /*
 // What follows is code from an abandoned idea of building the config
 // dynamically when the user signs in. In practice it is nicer to just
