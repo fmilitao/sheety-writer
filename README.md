@@ -30,6 +30,10 @@ In the project directory, you can run:
 
    See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+3. `yarn run deploy`
+
+   Builds bundle and deploys to github pages.
+
 <!--
 ## Learn More
 
