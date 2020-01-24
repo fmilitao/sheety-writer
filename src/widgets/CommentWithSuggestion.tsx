@@ -280,13 +280,13 @@ export default function CommentWithSuggestion(
           styles={selectStyles}
           inputId="react-select-single"
           TextFieldProps={{
-            label: 'type',
+            label: 'Type',
             InputLabelProps: {
               htmlFor: 'react-select-single',
               shrink: true,
             },
           }}
-          placeholder={'Type expense'}
+          placeholder={'Expense type...'}
           isClearable
           options={suggestions}
           components={components}
