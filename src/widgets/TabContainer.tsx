@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import DatePicker from './DatePicker';
+import Select from './Select';
 import Amount from './Amount';
 import Comment from './Comment';
 import CommentWithSuggestion from './CommentWithSuggestion';
@@ -116,6 +117,9 @@ export default function TabContainer(props: TabContainerProps) {
           return <Comment {...baseProps} />;
         }
         if (/type/i.test(element.title)) {
+          return <Select {...baseProps} choices={element.values || []} />;
+        }
+        if (/text/i.test(element.title)) {
           return (
             <CommentWithSuggestion
               {...baseProps}
