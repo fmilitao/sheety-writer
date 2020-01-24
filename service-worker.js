@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sheety-writer/precache-manifest.05547f82dd00f29b9fa4fce08fd593c9.js"
+  "/sheety-writer/precache-manifest.da354c98431e5d54fa7bf56bd5e7d58d.js"
 );
 
 self.addEventListener('message', (event) => {
