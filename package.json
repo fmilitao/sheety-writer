@@ -26,10 +26,8 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "encrypt:build": "tsc --out build/encrypt.js script/encrypt.ts",
-    "encrypt:file": "node build/encrypt.js",
-    "decrypt:build": "tsc --out build/decrypt.js script/decrypt.ts",
-    "decrypt:file": "node build/decrypt.js",
+    "encrypt": "ts-node --skip-project scripts/encrypt.ts",
+    "decrypt": "ts-node --skip-project scripts/decrypt.ts",
     "lint": "prettier --check 'src/**/*'",
     "lint:fix": "prettier --check 'src/**/*' --write",
     "start": "react-scripts start",
@@ -54,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "ts-node": "^8.6.2",
     "gh-pages": "^2.0.1"
   }
 }

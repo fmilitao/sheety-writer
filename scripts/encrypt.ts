@@ -1,6 +1,5 @@
-// intentional use of require instead of import
-const CryptoJS = require('crypto-js');
-const { readFileSync, existsSync } = require('fs');
+import * as CryptoJS from 'crypto-js';
+import { readFileSync, existsSync } from 'fs';
 
 const [_node, _script, password, file] = process.argv;
 if (password === undefined) {

@@ -97,8 +97,6 @@ URL options:
 For encryption:
 
 ```bash
-# build the typescript code
-yarn run encrypt:build
 # encrypt some JSON file
 yarn run encrypt:file PASSWORD PATH_TO_PLAIN_TEXT_JSON_FILE
 ```
@@ -106,8 +104,6 @@ yarn run encrypt:file PASSWORD PATH_TO_PLAIN_TEXT_JSON_FILE
 For decryption:
 
 ```bash
-# build the typescript code
-yarn run decrypt:build
 # encrypt some JSON file
 yarn run decrypt:file PASSWORD PATH_TO_ENCRYPTED_JSON_FILE
 ```
