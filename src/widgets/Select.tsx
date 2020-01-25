@@ -20,7 +20,7 @@ export default function Select(props: SelectProps) {
         onChange={event => props.onChange(event.target.value)}
       >
         <option value={''} key={-1}>
-          None
+          - None -
         </option>
         {props.choices.map((choice, index) => {
           return (
