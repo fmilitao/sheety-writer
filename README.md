@@ -72,11 +72,16 @@ The configuration JSON has the following format (note that comments are not vali
         { "title": "Amount" },
         // Comment: date
         { "title": "Date" },
-        // Comment: text
+        // Comment: free form text
         { "title": "Comment" },
         {
-          // Type: auto-complete text
+          // Type: fixed-set selection (+ '- None -')
           "title": "Type",
+          "values": ["option1", "option2"]
+        },
+        {
+          // Type: auto-complete text
+          "title": "Text",
           // if you want suggestions, populate "value" with some strings
           "values": ["type1", "type2", "hello"]
         }
@@ -98,19 +103,19 @@ For encryption:
 
 ```bash
 # encrypt some JSON file
-yarn run encrypt:file PASSWORD PATH_TO_PLAIN_TEXT_JSON_FILE
+yarn run encrypt PASSWORD PATH_TO_PLAIN_TEXT_JSON_FILE
 ```
 
 For decryption:
 
 ```bash
 # encrypt some JSON file
-yarn run decrypt:file PASSWORD PATH_TO_ENCRYPTED_JSON_FILE
+yarn run decrypt PASSWORD PATH_TO_ENCRYPTED_JSON_FILE
 ```
 
 You can try these command with the sample resources:
 
 ```bash
-yarn run encrypt:file example src/resources/sample.decrypted.json
-yarn run decrypt:file example src/resources/sample.encrypted.json
+yarn run encrypt example src/resources/sample.decrypted.json
+yarn run decrypt example src/resources/sample.encrypted.json
 ```
