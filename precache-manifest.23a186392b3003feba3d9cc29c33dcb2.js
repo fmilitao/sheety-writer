@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14ce27b142bce7acb3e986cadd692999",
+    "revision": "d521f634dcfb1e360860493319f48010",
     "url": "/sheety-writer/index.html"
   },
   {
-    "revision": "dc3fbefb456c6f2d893e",
+    "revision": "321cff6bbde8bca06214",
     "url": "/sheety-writer/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "f852c296299c354ed098",
-    "url": "/sheety-writer/static/js/2.c84839a9.chunk.js"
+    "revision": "68a8a50300863cd5049f",
+    "url": "/sheety-writer/static/js/2.0a4d956f.chunk.js"
   },
   {
     "revision": "ca8ce1f0e7dfd0d355fd201d8cae46ab",
-    "url": "/sheety-writer/static/js/2.c84839a9.chunk.js.LICENSE"
+    "url": "/sheety-writer/static/js/2.0a4d956f.chunk.js.LICENSE"
   },
   {
-    "revision": "dc3fbefb456c6f2d893e",
-    "url": "/sheety-writer/static/js/main.5dd80e94.chunk.js"
+    "revision": "321cff6bbde8bca06214",
+    "url": "/sheety-writer/static/js/main.74e47764.chunk.js"
   },
   {
     "revision": "a5462386b0716af9908c",
